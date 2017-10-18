@@ -1,0 +1,375 @@
+#title .w {
+  width: 990px;
+  height: 60px;
+  margin: 10px auto;
+}
+#title .top-title-left a {
+  float: left;
+  display: block;
+}
+#title .top-title-left h3 {
+  float: left;
+  height: 35px;
+  padding-top: 25px;
+  padding-left: 20px;
+  line-height: 1;
+  font-size: 24px;
+}
+#title .top-title-right {
+  position: relative;
+  height: 18px;
+  line-height: 18px;
+  margin-top: 40px;
+  padding-left: 23px;
+}
+#title .top-title-right i.icon {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: block;
+  width: 18px;
+  height: 14px;
+  margin-right: 5px;
+  background: url("../images/login/q-icon.png") no-repeat;
+}
+#main {
+  margin-bottom: 20px;
+}
+#main .policy {
+  background-color: #FFF8F0;
+  padding: 10px 0;
+}
+#main .policy-content {
+  text-align: center;
+}
+#main .policy-content i.icon {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  vertical-align: top;
+  background: url("../images/login/icon-tips.png");
+}
+#main .policy-content p {
+  display: inline-block;
+  color: #ffa258;
+}
+#main .login {
+  background-color: #FF703E;
+}
+#main .login .w {
+  width: 990px;
+  position: relative;
+}
+#main .login-banner {
+  width: 990px;
+  height: 475px;
+  background: url("../images/login/59dc2e2cNdb2d3d0e.jpg") no-repeat;
+}
+#main .login-form {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  width: 346px;
+  background-color: #fff;
+}
+#main .login-form-title {
+  height: 18px;
+  padding: 18px 0;
+  border-bottom: 1px solid #F4F4F4;
+}
+#main .login-form-title-left {
+  float: left;
+  display: block;
+  width: 171px;
+  line-height: 18px;
+  text-align: center;
+  border-right: 1px solid #F4F4F4;
+  font-size: 18px;
+}
+#main .login-form-title-left.active,
+#main .login-form-title-left:hover {
+  font-weight: 700;
+  color: #e4393c;
+}
+#main .login-form-title-right {
+  float: left;
+  display: block;
+  width: 174px;
+  line-height: 18px;
+  text-align: center;
+  font-size: 18px;
+}
+#main .login-form-title-right.active,
+#main .login-form-title-right:hover {
+  font-weight: 700;
+  color: #e4393c;
+}
+#main .login-form-content-qrcode {
+  display: none;
+  margin-top: 18px;
+}
+#main .login-form-content-qrcode .imgbox {
+  position: relative;
+  height: 168px;
+  margin-bottom: 20px;
+}
+#main .login-form-content-qrcode .imgbox-qrcode {
+  position: absolute;
+  left: 84px;
+  /*left: 20px;*/
+  top: 0;
+  padding: 8px;
+  border: 1px solid #f4f4f4;
+}
+#main .login-form-content-qrcode .imgbox-phone {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+#main .login-form-content-qrcode .imgbox-phone.active {
+  display: block;
+}
+#main .login-form-content-qrcode .description {
+  border-bottom: 1px solid #f4f4f4;
+}
+#main .login-form-content-qrcode .description-top {
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  margin-bottom: 13px;
+}
+#main .login-form-content-qrcode .description-top a {
+  color: #E4393C;
+}
+#main .login-form-content-qrcode .description-bottom {
+  height: 25px;
+  padding-left: 60px;
+  margin-bottom: 20px;
+}
+#main .login-form-content-qrcode .description-bottom-item {
+  float: left;
+  height: 25px;
+  margin-right: 18px;
+}
+#main .login-form-content-qrcode .description-bottom-item span {
+  line-height: 25px;
+}
+#main .login-form-content-qrcode .description-bottom-item i {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  margin-right: 3px;
+  background: url("../images/login/qr-coagent.png") no-repeat;
+  vertical-align: top;
+}
+#main .login-form-content-qrcode .description-bottom-item i.faster {
+  background-position: -27px 0;
+}
+#main .login-form-content-qrcode .description-bottom-item i.safe {
+  background-position: -54px 0;
+}
+#main .login-form-content-qrcode.active {
+  display: block;
+}
+#main .login-form-content-number {
+  padding: 5px 20px 20px;
+  display: none;
+  /*
+          .username{
+            height: 38px;
+            border: 1px solid #BDBDBD;
+            margin-bottom: 20px;
+            label{
+              float: left;
+              display: block;
+              width: 38px;
+              height: 38px;
+              border-right: 1px solid #BDBDBD;
+              background: url("../images/login/pwd-icons-new.png") no-repeat;
+            }
+            input{
+              float: left;
+              width: 253px;
+              padding-left: 12px;
+              line-height: 38px;
+            }
+          }
+          .passwrod{
+            height: 38px;
+            border: 1px solid #BDBDBD;
+            margin-bottom: 20px;
+            label{
+              float: left;
+              display: block;
+              width: 38px;
+              height: 38px;
+              border-right: 1px solid #BDBDBD;
+              background: url("../images/login/pwd-icons-new.png") no-repeat;
+            }
+            input{
+              float: left;
+              width: 253px;
+              padding-left: 12px;
+              line-height: 38px;
+            }
+          }
+            */
+}
+#main .login-form-content-number .msg-errow {
+  position: relative;
+  border: 1px solid #FACCC6;
+  background-color: #FFEBEB;
+  padding: 3px 10px 3px 40px;
+  color: #E4393C;
+  line-height: 15px;
+  margin-bottom: 5px;
+  opacity: 0;
+}
+#main .login-form-content-number .msg-errow i.icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  margin-top: -8px;
+  display: block;
+  width: 16px;
+  height: 16px;
+  background: url("../images/login/pwd-icons-new.png") -104px -49px;
+}
+#main .login-form-content-number .input {
+  height: 38px;
+  border: 1px solid #BDBDBD;
+  margin-bottom: 20px;
+}
+#main .login-form-content-number .input label {
+  float: left;
+  display: block;
+  width: 38px;
+  height: 38px;
+  border-right: 1px solid #BDBDBD;
+  background: url("../images/login/pwd-icons-new.png") no-repeat;
+}
+#main .login-form-content-number .input label.focus {
+  background-position: 0 -48px;
+}
+#main .login-form-content-number .input input {
+  float: left;
+  width: 253px;
+  height: 38px;
+  line-height: 38px;
+  padding-left: 12px;
+  font-size: 14px;
+}
+#main .login-form-content-number .authcode {
+  width: 306px;
+  height: 34px;
+  display: none;
+}
+#main .login-form-content-number .authcode input {
+  float: left;
+  width: 150px;
+  height: 32px;
+  padding-left: 10px;
+  font-size: 14px;
+  line-height: 32px;
+  border: 1px solid #BDBDBD;
+}
+#main .login-form-content-number .authcode a {
+  float: right;
+  display: block;
+}
+#main .login-form-content-number .authcode img {
+  width: 90px;
+  height: 34px;
+  vertical-align: top;
+}
+#main .login-form-content-number .authcode span {
+  display: inline-block;
+  width: 38px;
+  line-height: 17px;
+}
+#main .login-form-content-number .help {
+  text-align: right;
+  margin-bottom: 20px;
+}
+#main .login-form-content-number .button {
+  height: 32px;
+  width: 302px;
+  border: 1px solid #CB2A2D;
+}
+#main .login-form-content-number .button input {
+  width: 302px;
+  height: 32px;
+  background-color: #E4393C;
+  border: 1px solid #E85356;
+  color: #fff;
+}
+#main .login-form-content-number.active {
+  display: block;
+}
+#main .login-form-coagent {
+  height: 18px;
+  padding: 16px 21px;
+}
+#main .login-form-coagent-left {
+  float: left;
+}
+#main .login-form-coagent-left > span {
+  margin: 0 10px;
+  color: #ccc;
+}
+#main .login-form-coagent-left a {
+  position: relative;
+  display: inline-block;
+  height: 18px;
+  padding-left: 23px;
+}
+#main .login-form-coagent-left i {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 18px;
+  height: 18px;
+  background: url("../images/login/QQ-weixin.png") -1px 0 no-repeat;
+}
+#main .login-form-coagent-left i.weixin {
+  background-position: -20px 0;
+}
+#main .login-form-coagent-right {
+  float: right;
+}
+#main .login-form-coagent-right a {
+  position: relative;
+  display: block;
+  height: 16px;
+  line-height: 16px;
+  padding-left: 21px;
+}
+#main .login-form-coagent-right i {
+  position: absolute;
+  display: block;
+  left: 0;
+  top: 0;
+  width: 16px;
+  height: 16px;
+  background: url("../images/login/pwd-icons-new.png") -104px -75px;
+}
+#main .login-form-coagent-right span {
+  font-size: 14px;
+  color: #b61d1d;
+}
+#footer .footer-links {
+  margin-bottom: 10px;
+}
+#footer .footer-links p {
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+}
+#footer .footer-links span {
+  margin: 0 10px;
+}
+#footer .footer-copyright p {
+  text-align: center;
+}
